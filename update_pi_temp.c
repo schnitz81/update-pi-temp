@@ -7,7 +7,7 @@
 #define INTERVAL 5
 
 // Path to file for temperature output.
-#define filepath "/run/temp"  
+#define filepath "/run/cputemp"  
 
 typedef enum { false, true } bool; // bool type without extra header call.
 char temp[4];
